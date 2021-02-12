@@ -1,0 +1,13 @@
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #e1cf41;
+  margin-bottom: 20px;
+}
+
+.paginationItem {
+  margin: 20px;
+  cursor: pointer;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  color: #775b09;
+}

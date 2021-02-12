@@ -1,0 +1,34 @@
+.actorsTable {
+  text-align: center;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ececeb;
+  width: 100%;
+  color: #fff;
+}
+
+.actorsTable td,
+.actorsTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.actorsTable td {
+  cursor: pointer;
+}
+
+.actorsTable tr:nth-child(even) {
+  background-color: rgb(31, 31, 31);
+}
+
+.actorsTable tr:hover {
+  background-color: #e1cf41;
+}
+
+.actorsTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #e1cf41;
+  color: #775b09;
+}
